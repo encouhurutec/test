@@ -1,0 +1,37 @@
+Git ist ein Versionsverwaltungstool um sowohl Parallel an mehreren Projekten arbeiten zu können, als auch das mehrere Entwickler an einem Projekt arbeiten können
+
+Push siehe Befehl
+Pull siehe Befehl
+Merge
+
+Commit
+Phase 2 (bestätigung der änderung, man muss eine notiz hinterlegen) Wird in die Historie aufgenommen
+
+Stage oder staging:
+um eine bestimmte änderung nachvollziehen zu können (1 Phase)
+
+Branch (eine Abspaltung/Nebenversion einer Hauptversion) -> Eselsbrücke Evolutionstheorie
+
+Repository:
+Quellcode Ordner geheime Datei .git
+
+Remote Repository:
+Quellcode Ordner auf einem Server -> GitHub größte Plattform für Remote Repositorys
+
+
+Git Befehle:
+sudo apt install git
+git status
+git init
+git config --global user.email ""
+git config --global user.name ""
+git --version
+git add (staging vorstufe zur änderung)
+git commit -m "Notiz" (abschicken der änderung/bestätigung)
+git log (um zu sehen was bisher geschehen ist)
+git clone (zum holen einer repository) -> URL erforderlich
+git push zum "drücken" der lokalen repository in die remote repository
+git pull zum "ziehen" der remote repository in die lokale repository
+git checkout "Dateiname" um zu dem Branch zu wechseln, eigener Zweig zum vornehmen von Änderungen (unendliche viele Branches möglich)
+git merge "Dateiname" ??? um den Branch eines anderen Entwicklers zu holen ???
+
